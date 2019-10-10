@@ -180,7 +180,7 @@ footer {
 
 /* Services Page **************************************************/
 .serv-img {
-	margin: 20px 0;
+	margin: 22px 0;
 }
 .serv-text {
 	display: flex;
@@ -206,9 +206,8 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	margin: 25px 0 90px 0;
-	border-bottom: 1px solid black;
-	padding-bottom: 25px;
+	border-bottom: 2px solid black;
+	padding-bottom: 15px;
 }
 
 .middle-boxes .text-box{
@@ -241,8 +240,8 @@ footer {
 .facts {
 	display: flex;
 	justify-content: space-evenly;
-	margin: 25px 0 25px 0;
 	padding-bottom: 25px;
+	padding-top: 40px;
 }
 
 .fact-serv{
