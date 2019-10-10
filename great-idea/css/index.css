@@ -69,17 +69,21 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 878px;
 	margin: auto;
-	border: 1px solid red;
 }
 
 .navigation {
-	/* border: 1px solid blue; */
-	text-align: center;
-	margin-top: 30px;
+	display: flex;
+}
+
+.navigation nav {
+	margin-top: 40px;
+	width: 610px;
+	justify-content: space-between;
+	display: flex;
 	/* Top Right Bottom Left */
 }
 
-.navigation a{
+nav a{
 	text-decoration: none;
 	margin: 0 20px;
 	color: gray;
@@ -88,9 +92,7 @@ h1, h2, h3, h4, h5 {
 /* Image */
 
 .great-logo{
-	
-	margin-left: 110px;
-
+	margin: 28px 0 0 91px;
 }
 
 .cta{
@@ -177,31 +179,55 @@ footer {
 }
 
 /* Services Page **************************************************/
+.serv-img {
+	margin: 20px 0;
+}
+.serv-text {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	line-height: 1.3;
+}
+
+.serv-text h1{
+	font-size: 26px;
+	margin: 10px 0;
+}
+
+.serv-text .serv-bod {
+	border-bottom: 1px solid black;
+	padding-bottom: 40px;
+	margin-bottom: 20px;
+}
+
+/* Middle Boxes */
 
 .middle-boxes {
 	display: flex;
-	align-items: flex-start;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	border: 1px solid red;
+	margin: 25px 0 90px 0;
+	border-bottom: 1px solid black;
+	padding-bottom: 25px;
 }
 
 .middle-boxes .text-box{
-
-	width: 50%;
-	padding-top: 20px;
-	
-	line-height: 20px;
-	padding-bottom: 60px;
-	border: 1px solid orange;
+	padding: 25px;
+	border: 1px solid black;
+	width: 420px;
+	height: 250px;
+	background: #F0F0F0;
+	margin: 20px 0px;
 }
 
 /* Button */
 
 .middle-boxes .text-box button{
-
+	padding: 10px 40px;
+	margin-top: 20px;
+	cursor: pointer;
 	background: white;
-	font-size: 20px;
+	border-radius: 5px;
 	border: 1px solid black;
 }
 
@@ -214,8 +240,20 @@ footer {
 
 .facts {
 	display: flex;
-	align-items: flex-start;
-	flex-wrap: wrap;
 	justify-content: space-evenly;
-	border: 1px solid red;
+	margin: 25px 0 25px 0;
+	padding-bottom: 25px;
+}
+
+.fact-serv{
+	width: 420px;
+}
+
+.fact-serv ul {
+	padding: 25px;
+	list-style-type: square;
+	line-height: 1.5;
+
+.bott-img {
+	padding: 10px;
 }
